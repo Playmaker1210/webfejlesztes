@@ -1,21 +1,6 @@
 *{
     box-sizing: border-box;
 }
-/*#right{
-    background-color: red;
-    margin-left: 75%;
-    width: 25%;
-}
-#left{
-    background-color: blueviolet;
-    float: left;
-    width: 25%;
-}
-article{
-    background-color: blue;
-    margin-left: 25%;
-    width: 50%;
-}*/
 
 footer{
     background-color: green;
@@ -26,19 +11,16 @@ nav{
 }
 ul{
     text-align: center;
+    list-style-type: none;
+    inline-size: auto;
 }
 
-#logo1{
-    float: left;
-}
-#logo1 img{
-    width: 50%;
+.icon{
+
 }
 #logo2{
-    float: right;
-}
-#logo2 img{
-    width: 50%;
+    margin-left: 75%;
+    margin-top: 0%;
 }
 
 .col-1{

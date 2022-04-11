@@ -1,0 +1,26 @@
+"use strict"; //Modern js mod
+
+alert("pop up ablak az oldal tetején")
+
+<script></script>
+<script src="script.js"/>
+
+fordito programok:
+
+1. Compiler:
+	forráskód -> leforditja gepi kodra
+	
+2. Interpreter:
+	forráskód -> utasításonként fordít le
+	
+	
+f1.
+<script>
+	"use strict"
+	let szoveg1 = "Szia!";
+	alert(szoveg1)
+	function alert(message?: any): void
+	alert("1. valtozat: Az &{szoveg2} gyumolcs");
+	alert('2. valtozat: Az &{szoveg2} gyumolcs');
+	alert(`3. valtozat: Az &{szoveg2} gyumolcs`);
+</script>
