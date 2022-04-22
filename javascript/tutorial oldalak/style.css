@@ -1,0 +1,51 @@
+body{
+    margin: 5%;
+    background-color: rgb(53, 53, 61);
+    color: aliceblue;
+}
+
+li{
+    float: left;
+    margin: 5%;
+    padding: 1.3%;
+    background-color: white;
+    font-size: larger;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+li a{
+    color: rgb(53, 53, 61);
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 3%;
+    margin-right: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.html div a{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+button{
+    border: none;
+    background-color: white;
+}
