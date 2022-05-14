@@ -1,4 +1,4 @@
-let bal_tartaly = [1,2,3,4,5,6]; //ha ki lett valasztva egy szam akkor a szam indexen -1 lesz
+let bal_tartaly = []; //ha ki lett valasztva egy szam akkor a szam indexen -1 lesz
 let lehetosegek = [];
 //lehetosegekGen();
 
@@ -7,7 +7,6 @@ function lehetosegekGen(){
         lehetosegek[i] = 0;
     }
 }
-
 
 function tartaly_gen(){
     let arrLength = document.getElementById("tartaly_nagysag").value; 
