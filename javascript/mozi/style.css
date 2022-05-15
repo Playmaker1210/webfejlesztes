@@ -1,32 +1,32 @@
 body{
-    margin-left: 1%;
+    /*margin-left: 1%;
     margin-right: 1%;
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 1%;*/
+    margin: 1%;
 }
 
 .flex-container {
     display: flex;
-    background-color: DodgerBlue;
+    /*background-color: DodgerBlue;*/
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     padding: 1%;
 }
   
-
 .szek{
     background-color: #f1f1f1;
-    width: 10%;
+    width: 5%;
     margin: 1%;
     text-align: center;
-    line-height: 100px;
+    line-height: 65px;
     font-size: 30px;
 }
 
 .sor{
     display: flex;
-    background-color: purple;
+    /*background-color: purple;*/
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
