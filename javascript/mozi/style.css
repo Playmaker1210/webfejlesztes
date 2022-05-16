@@ -4,10 +4,47 @@ body{
     margin-top: 1%;
     margin-bottom: 1%;*/
     margin: 1%;
+    background-color: darkslategray;
+}
+
+nav{
+    background-color: darkolivegreen;
+    width: 100%;
+}
+
+footer{
+    background-color: darkolivegreen;
+}
+
+.flex-container2{
+    display: flex;
+    /*background-color: yellow;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding: 1%;
+}
+
+.flex-container2 div{
+    background-color: cadetblue;
+    /*width: 5%;*/
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.flex-container2 p{
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 0.6%;
+    line-height: 75px;
 }
 
 .flex-container {
     display: flex;
+    width: 100%;
     /*background-color: DodgerBlue;*/
     flex-direction: column;
     flex-wrap: wrap;
@@ -18,9 +55,11 @@ body{
 .szek{
     background-color: #f1f1f1;
     width: 5%;
-    margin: 1%;
+    height: 10%;
+    margin-left: 5%;
+    margin-bottom: 1%;
     text-align: center;
-    line-height: 65px;
+    /*line-height: 65px;*/
     font-size: 30px;
 }
 
@@ -38,4 +77,14 @@ body{
 
 .ideiglenes{
     background-color: darkturquoise;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+
+}
+
+a{
+    color: black;
 }

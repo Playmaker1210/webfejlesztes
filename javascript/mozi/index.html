@@ -8,16 +8,18 @@
         <title>Mozi</title>
     </head>
     <body onload="ulohelyekGeneralas()">
-        <div class="container">
-            <header>
-                <nav>
-                    Mozis mozi mozizó
-                    <div><!--masik flexbox, a navmenuk divek lesznek-->
-
-                    </div>
-                </nav>
-            </header>
-            <main>
+        <div class="container-fluid">
+            <nav>
+                <div class="flex-container2 container-fluid"><!--masik flexbox, a navmenuk divek lesznek-->
+                    <p>Mozis mozi mozizó</p>
+                    <div id="kezdolap"><a href="">Kezdőlap</a></div>
+                    <div id="mozimusor"><a href="">Moziműsor</a></div>
+                    <div id="programok"><a href="">Programok</a></div>
+                    <div id="jegyinfo"><a href="">Jegyinfó</a></div>
+                    <div id="ugyfelszolgalat"><a href="">Ügyfélszolgálat</a></div>
+                </div>
+            </nav><br><br>
+            <main class="container-fluid">
                 <!--<button class="btn btn-primary" onclick="ulohelyekGeneralas()">Generalás</button>-->
                 <button class="btn btn-primary" onclick="leFoglalas()">Lefoglalás</button>
                 <button class="btn btn-primary" onclick="legutobbiFoglalasVisszaMondas()">Legutóbbi foglalás visszamondása</button>
@@ -27,8 +29,13 @@
                     <div id="filmLeiras"></div>
                     <div id="filmKezdet"></div>
                 </div>               
-                <div class="flex-container" id="szekek"></div>
+                <div class="flex-container container-fluid" id="szekek"></div>
             </main>
+            <footer>
+                <div id="elerhetosegek">
+                    bsad
+                </div>
+            </footer>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
