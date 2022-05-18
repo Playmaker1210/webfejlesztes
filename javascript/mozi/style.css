@@ -12,8 +12,19 @@ nav{
     width: 100%;
 }
 
+
 footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
     background-color: darkolivegreen;
+    font-size: 40px;
+}
+
+footer div{
+    margin-right: 6%;
 }
 
 .flex-container2{
@@ -21,7 +32,7 @@ footer{
     /*background-color: yellow;*/
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: center;
     padding: 1%;
 }
 
@@ -29,18 +40,23 @@ footer{
     background-color: cadetblue;
     /*width: 5%;*/
     margin: 1%;
+    margin-right: 5%;
     padding: 1%;
     text-align: center;
     font-size: 30px;
 }
 
-.flex-container2 p{
-    justify-content: flex-start;
-    font-weight: 600;
-    font-size: 30px;
-    padding-top: 0.6%;
-    line-height: 75px;
+#nev{
+    background-color: darkolivegreen;
+    /*width: 5%;*/
+    margin: 1%;
+    margin-right: 5%;
+    padding: 1%;
+    text-align: center;
+    font-size: 40px;
 }
+
+
 
 .flex-container {
     display: flex;

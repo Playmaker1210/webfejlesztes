@@ -105,5 +105,5 @@ function legutobbiFoglalasVisszaMondas(){
         ulohelyek[sor][szek] = 0;
     }
     szekek = null;
-    legutobbiFoglalas = null;
+    legutobbiFoglalas = "";
 }
