@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+    /*background-color: DodgerBlue;*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+}
+  
+.elem{
+    background-color: #f1f1f1;
+    width: 5%;
+    height: 10%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    /*line-height: 65px;*/
+    font-size: 30px;
+}
+
+body{
+    margin: 1%;
+}
+
+.sor{
+    display: flex;
+    /*background-color: purple;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
