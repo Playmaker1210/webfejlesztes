@@ -144,16 +144,17 @@ function matrixKiiras(){
         
         matrix1_container.appendChild(sor);
     }
+
+    for (let i = 0; i < matrix2.length; i++) {
+        let sor = document.createElement("div");
+        sor.setAttribute("class", "sor");
+        for (let j = 0; j < matrix2[i].length; j++) {
+            let elem = document.createElement("div");
+            elem.setAttribute("class", "elem");
+            let text = document.createTextNode(matrix2[i][j]);
+            elem.appendChild(text);
+            sor.appendChild(elem);
+        }
+        matrix2_container.appendChild(sor);
+    }
 }
-
-
-/*
-1x2
-    6,6
-
-2x3
-    6,6,6
-    6,6,6
-
-
-*/
